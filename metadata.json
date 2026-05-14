@@ -1,0 +1,6 @@
+{
+  "name": "Scan to Data PDF",
+  "description": "Convert scanned PDF books into true searchable text PDFs using Gemini Vision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

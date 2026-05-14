@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="error-log" style="color: red; position: fixed; top: 0; left: 0; z-index: 9999; background: white;"></div>
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        document.getElementById('error-log').innerText += msg + '\n';
+      };
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
